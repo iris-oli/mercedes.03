@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carros</title>
+  <link rel="stylesheet" href="pe+ºas.css">
+</head>
+
+  <header>
+    <h1>AutoImperium</h1>
+    <nav>
+      <img src="logo.png" width="50" height="50">
+      <a href="introdu+º+úo.html"style="margin-left: 100px">introdução</a>
+      <a href="sobre.html"style="margin-left: 100px">Sobre nós</a>
+      <a href="fornecedores.html"style="margin-left: 100px">Fornecedores</a>
+      <a href="pe+ºas.html"style="margin-left: 100px">Peças</a>
+      <a href="tornese.html"style="margin-left: 100px">Torne-se fornecedor</a>
+      <a href="cadastro.html"style="margin-left: 100px"><img src="setas-flechas.png" width="30" height="30"> </a>
+    </nav>
+  </header>
+
+<body>
+  <script src="script.js" defer></script>
+    <h1>Produto: motor</h1>
+    <img src="motor.png" width="300" height="300" alt="Peça de Carro">
+    <p>Descrição da Peça: Esta é uma descrição breve da peça de carro.</p>
+    <p>Preço: R$18.000</p>
+
+    <h1>Produto: bateria</h1>
+    <img src="bateria.png" width="300" height="300" alt="Peça de Carro">
+    <p>Descrição da Peça: Esta é uma descrição breve da peça de carro.</p>
+    <p>Preço: R$500,00</p>
+
+    <h1>Produto: roda</h1>
+    <img src="calota.png" width="300" height="300" alt="Peça de Carro">
+    <p>Descrição da Peça: Esta é uma descrição breve da peça de carro.</p>
+    <p>Preço: R$546,00</p>
+
+    <h1>Produto:adesivo para carro mercedes</h1>
+    <img src="logo.png" width="300" height="300" alt="Peça de Carro">
+    <p>Descrição da Peça: Esta é uma descrição breve da peça de carro.</p>
+    <p>Preço: R$70,00</p>
+
+    
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br>
+
+      
+   <label for="estado">adqurir:</label>
+   <select id="estado">
+       <option value="SP">motor</option>
+       <option value="RJ">bateria</option>
+       <option value="MG">roda</option>
+       <option value="RS">adesivo</option>
+
+       
+   </select>
+   
+   <button onclick="calcularTotal()">Comprar</button>
+   
+   <p id="resultado"></p>
+   <script src="script.js"></script>
+  
+</body>
+</html>

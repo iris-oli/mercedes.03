@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nossos Fornecedores</title>
+  <link rel="stylesheet" href="forn.css">
+</head>
+
+<body>
+    <header>
+        <h1>AutoImperium</h1>
+        <nav>
+          <img src="logo.png" width="50" height="50">
+          <a href="introdu+º+úo.html"style="margin-left: 100px">introdução</a>
+          <a href="sobre.html"style="margin-left: 100px">Sobre nós</a>
+          <a href="fornecedores.html"style="margin-left: 100px">Fornecedores</a>
+          <a href="pe+ºas.html"style="margin-left: 100px">Peças</a>
+          <a href="tornese.html"style="margin-left: 100px">Torne-se fornecedor</a>
+          <a href="cadastro.html"style="margin-left: 100px"><img src="setas-flechas.png" width="30" height="30"> </a>
+        </nav>
+      </header>
+
+<main>
+  <section id="fornecedores">
+    <h2>Fornecedores</h2>
+    <table border: ="1">
+        <tr>
+            <td>Bosch</td>
+            <td>Fornece sistemas de direção, freios, eletrônica e outros componentes.</td>
+            <td><img src="Bosch-Logo.png" width="100" height="100"></td>
+        </tr>
+        <tr>
+            <td>Continental</td>
+            <td>Fornece pneus, sistemas de transmissão e outros componentes.</td>
+            <td><img src="continental.png" width="200" height="100"></td>
+        </tr>
+        <tr>
+            <td>ZF</td>
+            <td>Fornece trasnmissões, eixos e outros componentes.</td>
+            <td><img src="zf.png" width="100" height="100"></td>
+        </tr>
+        <tr>
+            <td>Johnson Controls</td>
+            <td>Fornece assentos, painéis e outros componentes</td>
+            <td><img src="Johnson-Controls-Logo.png" width="200" height="100"></td>
+        </tr>
+        <tr>
+            <td>Magna Steyr</td>
+            <td>Fornece carrocerias e outros componentes.</td>
+            <td><img src="mgn.png" width="200" height="100"></td>
+        </tr>
+    </table>
+    <section id="Matéria-prima"></section>
+  <h2>Matéria-prima e preços: </h2>
+  <table border: ="1">
+    <tr>
+        <td>Material</td>
+        <td>Preço (euro)</td>
+        <td>Preço (real)</td>
+    </tr>
+    <tr>
+        <td>Aço</td>
+        <td>€10.000</td>
+        <td>R$53.183,50</td>
+    </tr>
+    <tr>
+        <td>Alumínio</td>
+        <td>€2.500</td>
+        <td>R$26.591,75</td>
+    </tr>
+    <tr>
+        <td>Plástico</td>
+        <td>€2.500</td>
+        <td>R$13.295,87</td>
+    </tr>
+    <tr>
+        <td>Vidro</td>
+        <td>€1.00</td>
+        <td>R$5.318,35</td>
+    </tr>
+    <tr>
+        <td>Borracha</td>
+        <td>€500</td>
+        <td>R$2.659,17</td>
+    </tr>
+</table>
+   </section>
+   <h1>Calculadora de Preço com Frete</h1>
+    
+   <label>Preço do Produto: R$ 70.000</label>
+   
+   <label for="estado">Selecione o Estado:</label>
+   <select id="estado">
+       <option value="SP">São Paulo</option>
+       <option value="RJ">Rio de Janeiro</option>
+       <option value="MG">Minas Gerais</option>
+       <option value="RS">Rio Grande do Sul</option>
+       <option value="AC">Acre</option>
+       <option value="AL">Alagoas</option>
+       <option value="AP">Amapá</option>
+       <option value="AM">Amazonas</option>
+       <option value="BA">Bahia</option>
+       <option value="CE">Ceará</option>
+       <option value="ES">Espírito Santo</option>
+       <option value="GO">Goiás</option>
+       <option value="MA">Maranhão</option>
+       <option value="MT">Mato Grosso</option>
+       <option value="MS">Mato Grosso do Sul</option>
+       <option value="PA">Pará</option>
+       <option value="PB">Paraíba</option>
+       <option value="PR">Paraná</option>
+       <option value="PI">Piauí</option>
+       <option value="RN">Rio Grande do Norte</option>
+       <option value="RO">Rondônia</option>
+       <option value="RR">Roraima</option>
+       <option value="SC">Santa Catarina</option>
+       <option value="SE">Sergipe</option>
+       <option value="TO">Tocantins</option>
+       <option value="PE">Pernambuco</option>
+       
+   </select>
+   
+   <button onclick="calcularTotal()">Calcular</button>
+   
+   <p id="resultado"></p>
+   <script src="forn.js"></script>
+
+  <p>Além desses componentes, também é necessário considerar os custos de mão de obra, logística e outros custos indiretos.</p>
+  <p>Os custos de matéria-prima variam de acordo com a cotação do mercado.</p>
+</main>
+<footer>
+    <p>copyright &copy; 2023AutoImperium
+        Todos os direitos foram reservados.
+        Este site é protegido por reCAPTCHA e a Política de Privacidade e os Termos de Serviço do Google se aplicam.
+        Marcela e Íris
+    </p>
+   </footer>
+</body>
+</html>
